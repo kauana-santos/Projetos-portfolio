@@ -37,12 +37,12 @@ a:hover{
     background-color: rgba(128, 128, 128, 0);
     height: 100vh;
     padding-top: 30px;
-    padding-left: 40px;
-    margin-right: 40px;
+    padding-left: 90px;
+    margin-right: 90px;
 }
 
 .home-container{
-    background-color: rgba(0, 0, 255, 0.34);
+    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -53,6 +53,7 @@ a:hover{
     text-align: left;
     font-size: 30px;
     padding-left: 50px;
+    padding-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 12%;
 }
@@ -65,11 +66,16 @@ a:hover{
 }
 
 .home-imagem{
-    background-color: gray;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: right;
+    text-align: right;
+}
+
+.home-img{
+    height: 500px;
+    padding-top: 12%;
 }
 
 /* SOBRE */
@@ -78,12 +84,12 @@ a:hover{
     margin: 0;
     background-color: rgba(128, 128, 128, 0);
     height: 100vh;
-    padding-left: 40px;
-    margin-right: 40px;
+    padding-left: 90px;
+    margin-right: 90px;
 }
 
 .about-container{
-    background-color: rgba(0, 0, 255, 0.403);
+    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -98,17 +104,22 @@ a:hover{
     padding-top: 12%;
 }
 
+.about-img{
+    height: 100px;
+    border-radius: 20px;
+}
+
 /*  SKILL */
 
 #skill{
     margin: 0;
     height: 100vh;
-    margin-right: 40px;
-    padding-left: 40px;
+    margin-right: 90px;
+    padding-left: 90px;
 }
 
 .skill-container{
-    background-color: rgba(0, 0, 255, 0.34);
+    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -129,12 +140,12 @@ a:hover{
 #portifolio{
     margin: 0;
     height: 100vh;
-    margin-right: 40px;
-    padding-left: 40px;
+    margin-right: 90px;
+    padding-left: 90px;
 }
 
 .portifolio-container{
-    background-color: rgba(0, 0, 255, 0.295);
+    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -144,13 +155,12 @@ a:hover{
 /* CONTATO */
 
 #contato{
-    background-color: darkgray;
     margin: 0;
     height: 50vh;
 }
 
 .contato-container{
-    background-color: rgba(0, 0, 255, 0.215);
+    background-color: #4170bb47;
     margin: 0;
     height: 50vh;
 }
