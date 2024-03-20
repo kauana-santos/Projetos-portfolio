@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body{
-    margin: 0;
+    margin: 0px;
 }
 
 /* barra de navegação */
 
 nav{
     text-align: right;
-    padding-right: 50px;
+    padding-right: 150px;
+
 }
 
 .section{
@@ -23,26 +24,26 @@ nav{
     color: black;
     font-weight: 600;
     text-decoration: none;
-    padding-right: 15px;
+    padding-right: 40px;
+ 
 }
 
 a:hover{
-    color: blueviolet;
+    color: #FFB9C5;
 }
 
 /* HOME */
 
 #home{
     margin: 0;
-    background-color: rgba(128, 128, 128, 0);
     height: 100vh;
     padding-top: 30px;
-    padding-left: 90px;
-    margin-right: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .home-container{
-    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
+    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -52,7 +53,7 @@ a:hover{
 .home-texto{
     text-align: left;
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 12%;
@@ -84,28 +85,38 @@ a:hover{
     margin: 0;
     background-color: rgba(128, 128, 128, 0);
     height: 100vh;
-    padding-left: 90px;
-    margin-right: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .about-container{
-    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
+    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
     height: 90%;
 }
 
+.about-titulo{
+    font-family: 'Cousine', helvetica, arial;
+}
+
 .about-texto{
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
-    padding-left: 50px;
+    padding-top: 12%;
+    padding-right: 70px;
+    padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-imagem{
+    padding-left: 70px;
     padding-top: 12%;
 }
 
 .about-img{
-    height: 100px;
+    height: 300px;
     border-radius: 20px;
 }
 
@@ -114,12 +125,12 @@ a:hover{
 #skill{
     margin: 0;
     height: 100vh;
-    margin-right: 90px;
-    padding-left: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .skill-container{
-    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
+    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
@@ -127,12 +138,20 @@ a:hover{
 }
 
 .skill-texto{
+    font-family: 'Cousine', helvetica, arial;
     font-size: 18px;
-    padding-left: 50px;
+    padding-left: 70px;
+    padding-top: 12%;
 }
 
 .skill-sec{
-    display: inline-block;
+    padding-top: 20%;
+    display: grid;
+
+}
+
+i{
+    font-size: 100px;
 }
 
 /* PORTIFOLIO */
@@ -140,16 +159,22 @@ a:hover{
 #portifolio{
     margin: 0;
     height: 100vh;
-    margin-right: 90px;
-    padding-left: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .portifolio-container{
-    background-image: radial-gradient(#fff, #b3dec15c,#FBFFF1);
+    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
     display: flex;
     padding-top: 10px;
     border-radius: 20px;
     height: 90%;
+}
+
+.portifolio-h1{
+    font-family: 'Cousine', helvetica, arial;
+    padding-left: 70px;
+    padding-top: 12%;
 }
 
 /* CONTATO */
@@ -160,7 +185,7 @@ a:hover{
 }
 
 .contato-container{
-    background-color: #4170bb47;
+    background-color: #B3DEC1;
     margin: 0;
     height: 50vh;
 }
@@ -168,7 +193,7 @@ a:hover{
 .contato-titulo{
     text-align: left;
     font-size: 30px;
-    padding-left: 90px;
+    padding-left: 200px;
     font-family: 'Cousine', helvetica, arial;
     padding-top: 12%;
 }
