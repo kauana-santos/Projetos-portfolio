@@ -2,39 +2,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body{
-    margin: 0px;
+*{
+    margin: 0;
     padding: 0;
 }
 
-/* barra de navegação */
-
-nav{
-    text-align: right;
-    margin: 0% 12%;
-    background-color: #f61b1b;
-    
-
+.navegacao{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
 }
-
-.section{
-    display: inline-block;
-    
-}
-
-.section a{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-    padding-right: 40px;
  
+.navegacao .space-logo{
+    display: inline;
+    padding-left: 10%;
 }
 
-a:hover{
-    color: #FFB9C5;
+.space-logo img{
+    height: 30px;
+    
 }
 
+.navegacao .space-menu{
+    display: inline;
+    float: right;
+    padding-right: 10%;
+}
+
+ #menu-h li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 15px;
+} 
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
 /* HOME */
 
 #home{
@@ -43,6 +49,7 @@ a:hover{
     padding-top: 30px;
     margin-left: 150px;
     margin-right: 150px;
+   
 }
 
 .home-container{
@@ -51,6 +58,7 @@ a:hover{
     padding-top: 10px;
     border-radius: 20px;
     height: 90%;
+    margin-top: 40px;
 }
 
 .home-texto{
@@ -172,37 +180,32 @@ i{
     background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
     display: flex;
     padding-top: 12%;
+    margin-bottom: 50px;
     border-radius: 20px;
     height: 90%;
+    /* overflow-y: auto; */
 }
 
 .portifolio-container .portifolio-secao{
-    background-color: #6f6f6f9c;
+    background-color: #6f6f6f00;
     width: 900px;
     height: 60%;
     margin-top: 80px;
     padding: 20px;
-  
-
 }
 
-.projeto-1{
+
+
+.projeto-1, .projeto-2, .projeto-3{
     background-color:#B3DEC1 ;
-    width: 10px;
-    height: 20px;
+    width: 250px;
+    height: 350px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 15px;
 }
 
-.projeto-2{
-    background-color:#8ad2a2 ;
-    width: 10px;
-    height: 20px;
-}
 
-.projeto-3{
-    background-color:#78d095 ;
-    width: 10px;
-    height: 20px;
-}
 
 
 .portifolio-h1{
@@ -216,6 +219,7 @@ i{
 #contato{
     margin: 0;
     height: 50vh;
+   
 }
 
 .contato-container{
