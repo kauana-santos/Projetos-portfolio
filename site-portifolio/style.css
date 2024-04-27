@@ -5,9 +5,11 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 .navegacao{
+    background-color: #acf0ce;
     position: fixed;
     width: 100%;
     padding: 10px;
@@ -57,11 +59,11 @@ a:hover{
 }
 
 .home-container{
-    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
+    background-color: #F5F5F5;
     display: flex;
     padding-top: 5%;
     padding-bottom: 20%;
-    border-radius: 20px 0;
+    border-radius: 20px 20px 0 0;
     height: 90%;
     margin-top: 40px;
 }
@@ -105,7 +107,7 @@ a:hover{
 }
 
 .about-container{
-    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
+    background-color: #F5F5F5;
     display: flex;
     padding-bottom: 5%;
     padding-bottom: 5%;
@@ -149,7 +151,7 @@ a:hover{
 }
 
 .skill-container{
-    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
+    background-color: #F5F5F5;
     display: flex;
     padding-top: 4%;
     padding-bottom: 5%;
@@ -185,12 +187,12 @@ i{
 }
 
 .portifolio-container{
-    background-image: radial-gradient(#fff,#FBFFF1, #b3dec15c);
+    background-color: #F5F5F5;
     display: flex;
     padding-top: 12%;
     padding-bottom: 12%;
     margin-bottom: 50px;
-    border-radius: 0 20px;
+    border-radius: 0 0 20px 20px;
     height: auto;
     /* overflow-y: auto; */
 }
@@ -261,7 +263,7 @@ i{
 }
 
 .contato-container{
-    background-color: #B3DEC1;
+    background-color:#acf0ce;
     margin: 0;
     margin-top: 60px;
     height: 50vh;
@@ -279,14 +281,13 @@ i{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 290px;
-
     line-height: 40px;
 
 }
 
-.contato-texto ul li{
-    
-    list-style-image: url(./img/gmail.png);
+.contato-texto a img{
+    height: 30px;
+    padding-left: 20px;
 }
 
 .contato-dev{
