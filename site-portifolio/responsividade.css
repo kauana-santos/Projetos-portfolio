@@ -1,7 +1,110 @@
-/* 
-FFB9C5- rosinha
-02020A- preto
-05204A - azul
-FBFFF1 - quase branco
-B3DEC1 - verdin claro
-*/
+@media (max-width:900px) {
+
+    .navegacao{
+        display: flex;
+    }
+
+    #home, #about, #skill, #portifolio{
+        margin: 0;
+        text-align: center;
+        
+        
+    }
+    .home-texto{
+        font-size: medium;
+        padding-left: 30px;
+    }
+    .home-imagem{
+        margin: 0;
+    }
+
+    .home-img{
+        width: 200px;
+        height: fit-content;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-titulo{
+        text-align: center;
+    }
+
+    .about-texto{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about-img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .skill-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .skill-sec{
+        margin-left: 40%;
+        
+    }
+
+    .portifolio-h1{
+        padding-left: 0;
+    }
+
+    .skill-texto{
+        padding-left: 0;
+    }
+
+    .portifolio-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .portifolio-secao, .portifolio-h1{
+        margin: auto;
+        width: 400px;
+        text-align: center;
+    }
+
+    .contato-container .contato-texto, .contato-titulo{
+        margin: 0;
+        padding: 12% 0 0;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:900px) and (max-width:1300px) {
+    .home-container{
+        padding-right: 20%;
+        margin-top: 5px;
+    }
+
+    .home-texto h1{
+        font-size: 27px;
+    }
+    
+    .home-img{
+        width: 350px;
+    }
+
+    .home-imagem {
+        padding: 0;
+    }
+
+    .skill-sec{
+        margin: 5px;
+    }
+
+    i{
+        font-size: 100px;
+    }
+}
+    

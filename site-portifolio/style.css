@@ -17,7 +17,9 @@
  
 .navegacao .space-logo{
     display: inline;
-    padding-left: 10%;
+    padding-left:5%;
+    margin-right: 4%;
+    padding-bottom: 10px;
 }
 
 .space-logo img{
@@ -85,22 +87,22 @@ a:hover{
 }
 
 .home-imagem{
-    width: 300px;
+    width: 400px;
     height: 100px;
     float: left;
     margin-left: 90px;
 }
 
 .home-img{
-    height: 500px;
+    width: 500px;
     padding-top: 12%;
+    padding-right: 27px;
 }
 
 /* SOBRE */
 
 #about{
-    margin: 0;
-    background-color: rgba(128, 128, 128, 0);
+    background-color: #80808000;
     height: auto;
     margin-left: 150px;
     margin-right: 150px;
@@ -110,8 +112,6 @@ a:hover{
     background-color: #F5F5F5;
     display: flex;
     padding-bottom: 5%;
-    padding-bottom: 5%;
-   
     height: auto;
 }
 
@@ -125,7 +125,7 @@ a:hover{
     text-indent: 25px;
     font-size: 18px;
     margin-top: 13%;
-   
+    line-height: 30px;
     padding-right: 70px;
     padding-left: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -155,8 +155,7 @@ a:hover{
     display: flex;
     padding-top: 4%;
     padding-bottom: 5%;
-   
-    height: 90%;
+    height: auto;
 }
 
 .skill-texto{
@@ -169,7 +168,7 @@ a:hover{
 .skill-sec{
     padding-top: 20%;
     margin: 0px 40px;
-    position: relative;
+    display: flex;
 
 }
 
@@ -198,11 +197,10 @@ i{
 }
 
 .portifolio-container .portifolio-secao{
-    background-color: #6f6f6f00;
-    width: 900px;
-    height: 60%;
-    margin-top: 80px;
+    height: fit-content;
     padding: 20px;
+    
+
 }
 
 .portifolio-subtitulo{
@@ -252,6 +250,7 @@ i{
 .portifolio-h1{
     font-family: 'Cousine', helvetica, arial;
     padding-left: 70px;
+    height: fit-content;
     
 }
 
@@ -290,14 +289,6 @@ i{
     padding-left: 20px;
 }
 
-.contato-dev{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 4%;
-
-
-}
 
 
 
