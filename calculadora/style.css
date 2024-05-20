@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+#calc, #div-nome, #div-display, #div-teclas, #tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#calc{
+    flex-direction: column;
+    background-color: #eee;
+    border: 3px solid #bbb;
+    width: 230px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#div-nome{
+    width: 220px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#div-display{
+    width: 210px;
+}
+
+.display{
+    border: 1px solid #696969;
+    width: 220px;
+    height: 50px;
+    background-color: #a5ffff;
+    text-align: right;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#div-teclas{
+    width: 225px;
+    flex-wrap: wrap;
+    
+}
+
+.tecla, .tecla-op{
+    background-color: #aaa;
+    border: 3px solid #888;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.tecla-op{
+    background-color: #ec9f9f  !important;
+    border-color : #be7f7f !important;
+
+}
