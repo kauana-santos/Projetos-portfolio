@@ -4,6 +4,7 @@ const teclaRes = document.querySelector(".res")
 const tOn = document.getElementById("t-on")
 const limpar = document.getElementById("limpar")
 const display = document.querySelector(".display")
+const tIgual = document.getElementById("t-igual")
 
 let sinal = false
 let decimal = false
@@ -42,3 +43,10 @@ limpar.addEventListener("click", (evt)=>{
     decimal= false
 })
 
+tIgual.addEventListener("click", (evt)=>{
+    display.innerHTML=""
+    sinal=false
+    decimal= false
+    const res = eval(display.innerHTML)
+    display.innerHTML = res
+})
